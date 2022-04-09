@@ -11,10 +11,14 @@ namespace Generics
         static void Main(string[] args)
         {
             //Integer Maximum Find
-            int findMax = MaximumNumberCheck.MaximumIntegerNumbers(23,43,12);
-            Console.WriteLine("The maximum number among three is : "+findMax);
-            Console.ReadLine();
+            int findMaxInt = MaximumNumberCheck.MaximumIntegerNumbers(23,43,12);
+            Console.WriteLine("The maximum number among three is : "+findMaxInt);
 
+            //Float Maximum Find
+            float findMaxFloat = MaximumNumberCheck.MaximumFloatNumbers(12.12f,23.23f,43.23f);
+            Console.WriteLine("Them maximum float number is : "+findMaxFloat);
+
+            Console.ReadLine();
         }
     }
 }
