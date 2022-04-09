@@ -24,7 +24,15 @@ namespace Generics
 
             int[] intArray = { 21, 23, 11, 43, 53, 89 };
             GenericMaximum<int> generic = new GenericMaximum<int>(intArray);
-            generic.PrintMaxValue();    
+            generic.PrintMaxValue();
+
+            float[] floatArray = { 23.4f, 23.5f, 78.1f, 90.34f };
+            GenericMaximum<float> genericFloatMax = new GenericMaximum<float>(floatArray);
+            genericFloatMax.PrintMaxValue();
+
+            string[] stringArray = { "banana", "peach", "cherry", "apple", "kiwi" };
+            GenericMaximum<string> genericStringMax = new GenericMaximum<string>(stringArray);
+            genericStringMax.PrintMaxValue();
 
             Console.ReadLine();
         }

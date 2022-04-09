@@ -28,7 +28,7 @@ namespace Generics
             return sorted_value[value.Length - 1];
         }
 
-        public T MaxMethod()
+        public T GenericMaxMethod()
         {
             var max = MaxValue(value);
             return max;
