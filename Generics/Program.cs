@@ -10,6 +10,11 @@ namespace Generics
     {
         static void Main(string[] args)
         {
+            //Integer Maximum Find
+            int findMax = MaximumNumberCheck.MaximumIntegerNumbers(23,43,12);
+            Console.WriteLine("The maximum number among three is : "+findMax);
+            Console.ReadLine();
+
         }
     }
 }
