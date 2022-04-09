@@ -22,6 +22,10 @@ namespace Generics
             string findMaxString = MaximumNumberCheck.MaximumString("Apple","Peach","Banana");
             Console.WriteLine("The maximum string value is : "+findMaxString);
 
+            int[] intArray = { 21, 23, 11, 43, 53, 89 };
+            GenericMaximum<int> generic = new GenericMaximum<int>(intArray);
+            generic.PrintMaxValue();    
+
             Console.ReadLine();
         }
     }
